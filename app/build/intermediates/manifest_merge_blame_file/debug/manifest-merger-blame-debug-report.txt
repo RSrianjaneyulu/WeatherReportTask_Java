@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.weather.weatherreport"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:8:5-81
+13-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:9:5-79
+14-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+15-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:10:5-80
+15-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:10:22-77
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:11:5-80
+16-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:11:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:12:5-13:40
+17-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+18-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:14:5-81
+18-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:14:22-78
+19    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+19-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:15:5-80
+19-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:15:22-77
+20    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+20-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:16:5-17:40
+20-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:16:22-79
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:18:5-75
+21-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:18:22-72
+22    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+22-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:19:5-98
+22-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:19:22-95
+23
+24    <application
+24-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:21:5-38:19
+25        android:name="androidx.multidex.MultiDexApplication"
+26        android:allowBackup="true"
+26-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:22:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.3.2] C:\Users\user2\.gradle\caches\transforms-2\files-2.1\ceb4d25cfc1ca46b00fb17888e1833f2\core-1.3.2\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/weather"
+29-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:23:9-39
+30        android:label="@string/app_name"
+30-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:24:9-41
+31        android:networkSecurityConfig="@xml/network_security_config"
+31-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:26:9-69
+32        android:requestLegacyExternalStorage="true"
+32-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:27:9-52
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:25:9-54
+34        android:supportsRtl="true"
+34-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:28:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.OpenWeather"
+36-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:29:9-49
+37        android:usesCleartextTraffic="true" >
+37-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:30:9-44
+38        <activity
+38-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:31:9-37:20
+39            android:name="com.weather.openweather.WeatherActivity"
+39-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:31:19-50
+40            android:exported="true" >
+40-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:32:13-36
+41            <intent-filter>
+41-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:33:13-36:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:34:17-69
+42-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:34:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:35:17-77
+44-->C:\Users\user2\Android_Development\Mphasis_Task\app\src\main\AndroidManifest.xml:35:27-74
+45            </intent-filter>
+46        </activity>
+47    </application>
+48
+49</manifest>

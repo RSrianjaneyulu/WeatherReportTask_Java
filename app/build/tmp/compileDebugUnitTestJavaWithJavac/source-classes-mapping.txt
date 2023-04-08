@@ -1,0 +1,6 @@
+com/weather/openweather/CityDetails.java
+ com.weather.openweather.CityDetails
+com/weather/openweather/ExampleUnitTest.java
+ com.weather.openweather.ExampleUnitTest
+com/weather/openweather/TestUnit.java
+ com.weather.openweather.TestUnit

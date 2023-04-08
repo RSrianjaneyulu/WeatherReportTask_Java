@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_IWA_weaatherView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    card_view:cardBackgroundColor="@color/teal_200"
+    card_view:cardCornerRadius="@dimen/activity_margin_10dp"
+    card_view:cardElevation="@dimen/activity_margin_5dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_margin_10dp"
+        android:layout_marginTop="@dimen/activity_margin_5dp"
+        android:layout_marginBottom="@dimen/activity_margin_5dp">
+
+        <TextView
+            android:id="@+id/tv_IWA_currentDateAndTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/currentdateandtime_label"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_size_15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_IWA_currentCityName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_IWA_currentDateAndTime"
+            android:layout_marginTop="@dimen/activity_margin_5dp"
+            android:text="@string/cityname_label"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_18sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/iv_IWA_weatherIcon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/tv_IWA_currentCityName"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/activity_margin_15dp"
+            android:src="@drawable/ic_baseline_cloud_circle_24"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tv_IWA_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_IWA_currentCityName"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_margin_10dp"
+            android:layout_marginTop="@dimen/activity_margin_30dp"
+            android:layout_toRightOf="@+id/iv_IWA_weatherIcon"
+            android:text="@string/temperature_label"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/text_size_24sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tv_IWA_feesLikeData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_IWA_weatherIcon"
+            android:layout_marginTop="@dimen/activity_margin_5dp"
+            android:text="@string/feelslikedata_label"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_IWA_speedIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="@dimen/activity_margin_5dp"
+            android:layout_below="@+id/tv_IWA_feesLikeData"
+            android:src="@drawable/ic_baseline_arrow_left_24"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tv_IWA_speedDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_IWA_feesLikeData"
+            android:layout_marginTop="@dimen/activity_margin_8dp"
+            android:layout_marginRight="@dimen/activity_margin_10dp"
+            android:layout_toRightOf="@+id/iv_IWA_speedIcon"
+            android:text="@string/speed_label"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_13sp" />
+
+        <ImageView
+            android:id="@+id/iv_IWA_pressureIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@+id/tv_IWA_feesLikeData"
+            android:layout_marginTop="@dimen/activity_margin_5dp"
+            android:layout_marginLeft="@dimen/activity_margin_5dp"
+            android:layout_toRightOf="@+id/tv_IWA_speedDetails"
+            android:src="@drawable/ic_baseline_circle_outline_24"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tv_IWA_pressureDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_IWA_feesLikeData"
+            android:layout_marginTop="@dimen/activity_margin_8dp"
+            android:layout_marginLeft="@dimen/activity_margin_5dp"
+            android:layout_marginRight="@dimen/activity_margin_10dp"
+            android:layout_toRightOf="@+id/iv_IWA_pressureIcon"
+            android:text="@string/pressure_label"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_13sp" />
+
+        <TextView
+            android:id="@+id/tv_IWA_humidityDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_IWA_speedIcon"
+            android:text="@string/humiditydata_label"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_13sp" />
+
+        <TextView
+            android:id="@+id/tv_IWA_uvDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_IWA_speedIcon"
+            android:layout_marginLeft="@dimen/activity_margin_25dp"
+            android:layout_toRightOf="@+id/tv_IWA_humidityDetails"
+            android:text="@string/uvdata_label"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_13sp" />
+
+        <TextView
+            android:id="@+id/tv_IWA_dewPointDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_IWA_humidityDetails"
+            android:text="@string/dewpointdata_label"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_13sp" />
+
+        <TextView
+            android:id="@+id/tv_IWA_visibilityData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_IWA_humidityDetails"
+            android:layout_marginLeft="@dimen/activity_margin_20dp"
+            android:layout_toRightOf="@+id/tv_IWA_dewPointDetails"
+            android:text="@string/visibilitydata_label"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_13sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Weather Report</string>
+    <string name="no_weatherdata_label">No Weather Report Found !!!</string>
+    <string name="enter_cityname_label">Enter City Name <font color='#f54242'>*</font></string>
+    <string name="currentdateandtime_label">Feb 25, 12:16pm</string>
+    <string name="cityname_label">Chicago, BZ</string>
+    <string name="temperature_label">135.09</string>
+    <string name="feelslikedata_label">Feels like 30°C. Clear sky. Gentle Breeze</string>
+    <string name="speed_label">5.0m/s E</string>
+    <string name="pressure_label">1019hPa</string>
+    <string name="humiditydata_label">Humidity: 56%</string>
+    <string name="uvdata_label">UV: 10</string>
+    <string name="dewpointdata_label">Dew point: 19°C</string>
+    <string name="visibilitydata_label">Visibility: 10.0km</string>
+    <string name="temperaturecelsius_symbol">°C</string>
+    <string name="percentage_symbol">%</string>
+    <string name="speed_symbol">m/s E</string>
+    <string name="pressure_symbol">hPa</string>
+    <string name="humidity_label">Humidity:&#160;</string>
+    <string name="uv_label">UV:&#160;</string>
+    <string name="dewpoint_label">Dew point:&#160;</string>
+    <string name="visibility_label">Visibility:&#160;</string>
+    <string name="km_label">km</string>
+    <string name="feelslike_label">Feels like:&#160;</string>
+    <string name="internetconnection_required">Internet Connection is Required</string>
+    <string name="cityname_required">This field cannot be empty</string>
+    <string name="valid_cityname">Please enter the valid city name</string>
+    <string name="valid_citynamecharacters">Min length should be 3 &amp; Max 30</string>
+    <string name="valid_characters">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789, </string>
+</resources>
